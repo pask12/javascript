@@ -68,16 +68,16 @@ else{
 //exo 5
 
 
- let m = prompt("entrez un nombre: ");
- let n = prompt("entrez un deuxième nombre: ");
-  if ((m==0) || (n==0)){
-     alert("le produit est nul"); 
- }else if ((m<0 && n<0) || (m>0 && n> 0)){
-     alert("le produit est positif");
- }
- else{
-     alert("le produit est négatif");
- }
+//  let m = prompt("entrez un nombre: ");
+//  let n = prompt("entrez un deuxième nombre: ");
+//   if ((m==0) || (n==0)){
+//      alert("le produit est nul"); 
+//  }else if ((m<0 && n<0) || (m>0 && n> 0)){
+//      alert("le produit est positif");
+//  }
+//  else{
+//      alert("le produit est négatif");
+//  }
 
 
 
@@ -106,3 +106,26 @@ else if (age>= 12){
 }
 
 alert(resultat);*/
+
+// _______________________________________________________ou
+
+
+let age = prompt("entrez l'âge de l'enfant: ");
+
+
+if ((age >= 6)&&(age < 8)){
+    alert( "catégorie Poussin");
+ }
+
+else if ((age>= 8)&&(age < 10)){
+    alert("catégorie Pupille");
+}
+
+else if ((age>= 10)&&(age < 12)){
+    alert( "catégorie Minime");
+}
+
+else if (age>= 12){
+    alert( "catégorie Cadet");
+}
+
