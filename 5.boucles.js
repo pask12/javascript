@@ -25,29 +25,110 @@
 
 // exo 2
 
-let n;
+// let n;
 
-while(true){
-    n=prompt("entrez un nombre entre 10 et 20");
+// while(true){
+//     n=prompt("entrez un nombre entre 10 et 20");
 
-    if(n<10 || n>20){
+//     if(n<10 || n>20){
 
-    if(n <10){
-        alert("plus grand!");
-        }
-        else {(n>20);
-        alert("Plus petit!");
-        }
+//     if(n <10){
+//         alert("plus grand!");
+//         }
+//         else {(n>20);
+//         alert("Plus petit!");
+//         }
 
-    }else{
-alert("correct");
+//     }else{
+// alert("correct");
     
-break;
- }
+// break;
+//  }
+// }
+
+
+  //exo 3  
+
+
+// let n = parseInt(prompt("entrez un nombre:"));
+
+
+// let stop = n +10;
+
+// while(n<stop){
+
+//     n=n+1;
+//     console.log(n)
+//     alert(n)
+// }
+
+
+
+
+
+
+
+// exo 4
+
+
+// let n = parseInt(prompt("entrez un nombre:"));
+
+// for (let i = 1; i < 10; i++) {
+//    console.log(n+i)
+//    alert(n+i)
+// }
+
+
+
+// exo 5
+
+// let n = prompt("entrez un nombre:");
+
+// for (let i = 1; i <= 10; i++) {
+  
+// alert(n*i)
+// }
+
+//  exo 6
+
+
+// n = parseInt(prompt('entrer un nombre :'));
+// somme = 0;
+// for (let i = 1; i <= n ; i++) {
+//   somme += i
+//   console.log(i);
+//   alert(i);
+
+// }
+//   console.log(somme)
+//   alert(somme)
+
+
+
+//exo 7
+
+
+let n =prompt("entrer un nombre:");
+let i=1
+let f=0
+
+while(i<=n){
+  f=f*i;
+  i=i+1
+
+console.log(f);
+alert(f)
+
 }
 
 
-    
 
 
-    
+
+
+
+
+
+
+
+
